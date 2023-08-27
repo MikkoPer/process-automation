@@ -1,0 +1,20 @@
+{
+  "name": "process-automation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "npx tsc & node dist/index.js",
+    "build": "npx tsc",
+    "start": "node dist/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^5.2.2"
+  },
+  "dependencies": {
+    "winston": "^3.10.0"
+  }
+}
